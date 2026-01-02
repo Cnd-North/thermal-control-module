@@ -1,0 +1,43 @@
+# Arduino/IDE files
+*.hex
+*.elf
+*.bin
+*.map
+*.lss
+*.eep
+*.sym
+*.o
+*.d
+*.a
+
+# Build directories
+build/
+.build/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Thumbnails
+._*
+
+# Directories potentially created on remote AFP share
+.AppleDB
+.AppleDesktop
+Network Trash Folder
+Temporary Items
+.apdisk
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# Editor backup files
+*~
+*.swp
+*.swo
+*.bak
+*.tmp

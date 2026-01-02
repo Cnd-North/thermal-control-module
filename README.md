@@ -39,15 +39,46 @@ The modular design allows integration into larger control systems for comprehens
 
 ### Components
 
-| Component | Model/Type | Notes |
-|-----------|------------|-------|
-| Microcontroller | ESP8266 | NodeMCU, Wemos D1 Mini, etc. |
-| Thermocouple Module | MAX31855 | K-type thermocouple support |
-| Display | SSD1306 128x64 OLED | I2C interface |
-| Rotary Encoder | KY-040 or similar | With push button |
-| Solid State Relay (SSR) | 25A DC-DC SSR | For Peltier control |
-| Peltier Plates | TEC1-12706 or similar | 12V cooling/heating |
-| Power Supply | 12V 5A+ | For Peltier plates |
+All components available on Amazon (affiliate links support this project at no extra cost to you):
+
+| Component | Model/Type | Est. Price | Amazon Link |
+|-----------|------------|------------|-------------|
+| **Microcontroller** | ESP8266 NodeMCU | ~$8-12 | [Shop ESP8266](https://www.amazon.com/s?k=esp8266+nodemcu&tag=electrobio-20) |
+| **Thermocouple Module** | MAX31855 Breakout | ~$10-15 | [Shop MAX31855](https://www.amazon.com/s?k=MAX31855+thermocouple+module&tag=electrobio-20) |
+| **K-Type Thermocouple** | Probe with wire | ~$8-15 | [Shop K-Type Probe](https://www.amazon.com/s?k=k+type+thermocouple+probe&tag=electrobio-20) |
+| **OLED Display** | SSD1306 128x64 I2C | ~$5-10 | [Shop OLED Display](https://www.amazon.com/s?k=ssd1306+128x64+oled+i2c&tag=electrobio-20) |
+| **Rotary Encoder** | KY-040 Module | ~$5-8 | [Shop Rotary Encoder](https://www.amazon.com/s?k=ky-040+rotary+encoder&tag=electrobio-20) |
+| **Solid State Relay** | 25A DC-DC SSR | ~$8-15 | [Shop SSR](https://www.amazon.com/s?k=25a+dc+dc+solid+state+relay&tag=electrobio-20) |
+| **Peltier Plates** | TEC1-12706 (12V 6A) | ~$8-12 | [Shop Peltier](https://www.amazon.com/s?k=tec1-12706+peltier&tag=electrobio-20) |
+| **Power Supply** | 12V 5A+ Adapter | ~$10-15 | [Shop 12V Power Supply](https://www.amazon.com/s?k=12v+5a+power+supply&tag=electrobio-20) |
+| **Heatsink + Fan** | 40mm Aluminum | ~$10-15 | [Shop Heatsink](https://www.amazon.com/s?k=40mm+heatsink+fan+12v&tag=electrobio-20) |
+
+**Total Cost:** ~$70-120 depending on components selected
+
+**Optional Components:**
+- [Breadboard & Jumper Wires](https://www.amazon.com/s?k=breadboard+jumper+wires&tag=electrobio-20) (~$10) - For prototyping
+- [Project Enclosure](https://www.amazon.com/s?k=electronic+project+enclosure&tag=electrobio-20) (~$8-15) - To house electronics
+- [Thermal Paste](https://www.amazon.com/s?k=thermal+paste&tag=electrobio-20) (~$5) - For Peltier to heatsink
+- [Wire Kit](https://www.amazon.com/s?k=22awg+wire+kit&tag=electrobio-20) (~$12) - Various gauge wire
+
+### Recommended Complete Kits
+
+**Budget Build (~$70-90):**
+- Generic ESP8266 NodeMCU
+- Basic MAX31855 module with probe
+- Standard SSD1306 display
+- Economy SSR and Peltier
+- Basic 12V power supply
+
+**Pro Build (~$110-130):**
+- Quality ESP8266 with USB-C
+- Adafruit MAX31855 module
+- High-quality K-type probe
+- Industrial-grade SSR (Fotek or Crydom)
+- TEC1-12706 with heatsink/fan combo
+- Regulated 12V 10A power supply
+
+*Affiliate links help support open-source biohacking projects at electrobio.xyz*
 
 ### Pin Connections
 
@@ -309,12 +340,23 @@ MIT License - see [LICENSE](LICENSE) file for details
 - **Issues**: [GitHub Issues](https://github.com/YOUR_USERNAME/thermocouple-pid-controller/issues)
 - **Discussions**: [GitHub Discussions](https://github.com/YOUR_USERNAME/thermocouple-pid-controller/discussions)
 
+## Support This Project
+
+If you find this thermal control module useful for your biohacking or bioprocess projects, consider supporting development:
+
+- ⭐ **Star this repository** - Help others discover this project
+- 🛒 **Use the affiliate links above** when purchasing hardware (supports open-source development at no extra cost)
+- ☕ **[Buy me a coffee](https://buymeacoffee.com/electrobio)** - Direct support for new features
+- 🐛 **Report bugs and suggest features** - Help make this better for everyone
+- 📖 **Share your build** - Open an issue or discussion showing your bioreactor setup!
+
 ## Author
 
 **Gerrit van Rensburg**
-Website: [electrobio.xyz](https://www.electrobio.xyz)
-Support: [Buy me a coffee](https://buymeacoffee.com/electrobio)
+🌐 Website: [electrobio.xyz](https://www.electrobio.xyz)
+☕ Support: [Buy me a coffee](https://buymeacoffee.com/electrobio)
+🔬 Passion: Making precision biotech tools accessible to everyone
 
 ---
 
-**Made with ❤️ for precision temperature control**
+**Made with ❤️ for precision temperature control and open-source biohacking**

@@ -1,10 +1,23 @@
-# Thermocouple PID Temperature Controller
+# Thermal Control Module
 
-A precision temperature controller using MAX31855 thermocouple, PID control, and Peltier plates for heating/cooling applications.
+A modular, precision thermal control system designed for bioreactors and biochemical devices. Features PID-controlled Peltier plates with thermocouple sensing for accurate temperature regulation in bioprocessing applications.
 
 ![Version](https://img.shields.io/badge/version-2.0-blue.svg)
 ![Arduino](https://img.shields.io/badge/Arduino-ESP8266-00979D.svg)
 ![License](https://img.shields.io/badge/license-MIT-green.svg)
+![Application](https://img.shields.io/badge/Application-Bioreactor-green.svg)
+
+## Overview
+
+This thermal control module serves as a fundamental building block for environmental control systems in biotechnology applications including:
+
+- 🧫 **Bioreactors** - Maintain optimal growth temperatures for cell cultures
+- 🔬 **Lab Incubators** - Precise temperature regulation for experiments
+- 🧬 **PCR Thermal Cyclers** - Custom thermocycling for molecular biology
+- 🌡️ **Environmental Chambers** - Controlled conditions for biological studies
+- 💉 **Fermentation Systems** - Temperature-controlled bacterial/yeast cultures
+
+The modular design allows integration into larger control systems for comprehensive bioprocess monitoring and automation.
 
 ## Features
 
@@ -18,8 +31,9 @@ A precision temperature controller using MAX31855 thermocouple, PID control, and
   - **Adjust Mode**: Change setpoint, SSR disabled for safety
 - **Safety Features**:
   - Automatic SSR shutdown in adjust mode
-  - Temperature range limits (10-100°C)
+  - Temperature range limits (10-100°C configurable)
   - Sensor error detection and display
+- **Modular Architecture** - Designed for integration into larger control systems
 
 ## Hardware Requirements
 

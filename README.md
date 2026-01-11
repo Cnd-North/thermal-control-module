@@ -352,7 +352,7 @@ If you find this thermal control module useful for your biohacking or bioprocess
 
 ## Author
 
-**Gerrit van Rensburg**
+**ElectroBio Team** (Cnd-North)
 🌐 Website: [electrobio.xyz](https://www.electrobio.xyz)
 ☕ Support: [Buy me a coffee](https://buymeacoffee.com/electrobio)
 🔬 Passion: Making precision biotech tools accessible to everyone
